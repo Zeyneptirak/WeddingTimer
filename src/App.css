@@ -1,5 +1,69 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
 .App {
   text-align: center;
+  height: 100vh;
+  background: linear-gradient(170deg, #F5F222, #EB19EE);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.text{
+  position: relative;
+  margin: a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 190px;
+  width: 600px;
+  color: #d6eab1;
+  font-size: 3rem;
+ 
+}
+.mare{
+  position: relative;
+  margin: a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 190px;
+  width: 600px;
+  color: #d6eab1;
+  font-size: 2rem;
+}
+.clock{
+  position: relative;
+  margin: a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(164, 122, 149);
+  height: 190px;
+  width: 350px;
+  color: #61dafb;
+  text-shadow: 1px 1px 7px;
+  border-radius: 15px;
+  border: 2px solid silver;
+  box-shadow: 0 0 5px 25px;
+}
+.clock section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  padding: 1rem;
+}
+.clock section p{
+  font-size: 3rem;
+}
+.clock section p{
+  color:silver;
+  text-shadow: none;
 }
 
 .App-logo {
